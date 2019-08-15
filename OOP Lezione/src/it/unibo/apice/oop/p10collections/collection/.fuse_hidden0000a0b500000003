@@ -1,0 +1,19 @@
+public class RangeSet extends AbstractSet<Double>{
+    private double start;
+    private double delta;
+    private int size;
+    
+    public RangeSet(double start, double delta, int size){
+    	this.start = start;
+    	this.start = delta;
+    	this.size = size;
+    }
+    
+    public size(){
+    	return this.size;
+    }
+    
+    public Iterator<Double> iterator(){
+    	return new RangeSetIterator<>(this.start,this.delta,this.size);
+    }
+}

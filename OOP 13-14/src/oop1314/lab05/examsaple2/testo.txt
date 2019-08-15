@@ -1,0 +1,14 @@
+Si consideri la classe Test.java, che testa la classe data e funzionante FactorialSet. In modo simile alla classe RangeSet vista a lezione, FactorialSet estende e completa AbstractSet per realizzare il concetto di "insieme dei primi n numeri fattoriali". A tal scopo, tali numeri saranno modellati attraverso la classe java.math.BigInteger, che gestisce numeri intere di dimensione arbitraria. FactorialSet dovrà fornire attraverso il metodo iterator() un iteratore che sia istanza di una classe FactorialIterator da realizzare. Si consideri che BigInteger fornisce le seguenti funzionalità:
+
+class BigInteger{
+
+  // fornisce un BigInteger dato un long
+  public static BigInteger valueOf(long l){..}
+  
+  // torna un nuovo BigInteger ottenuto sommando/sottraendo/moltiplicando this e b
+  public BigInteger add(BigInteger b){..}
+  public BigInteger subtract(BigInteger b){..}
+  public BigInteger multiply(BigInteger b){..}
+
+  public String toString(){..}
+}

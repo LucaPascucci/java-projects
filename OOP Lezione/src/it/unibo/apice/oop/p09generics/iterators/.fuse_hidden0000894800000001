@@ -1,0 +1,19 @@
+/* Itera tutti gli elementi di una List */
+public class ListIterator<E> implements Iterator<E>{
+    
+    private List<E> list; // Lista corrente
+    
+    public ListIterator(List<E> list){
+    	this.list = list;
+    }
+    
+    public E next(){
+    	E element = list.getHead(); 	// Elemento da tornare
+    	list = list.getTail();		// Aggiorno la lista
+    	return element;
+    }
+    
+    public boolean hasNext(){
+    	return (list != null);
+    }
+}

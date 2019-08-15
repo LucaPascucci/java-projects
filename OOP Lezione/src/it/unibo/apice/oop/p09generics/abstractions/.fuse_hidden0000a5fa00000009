@@ -1,0 +1,15 @@
+public class UseIntVector {
+    public static void main(String[] s){
+    	// Serie di Fibonacci
+    	IntVector vi = new IntVector();
+    	vi.addElement(1);
+    	vi.addElement(1);
+    	for (int i=0;i<20;i++){
+    	    vi.addElement(
+    	    	vi.getElementAt(vi.getLength()-1)+
+    	    	vi.getElementAt(vi.getLength()-2)
+    	    );
+    	}
+    	System.out.println(""+vi);
+    }
+} 

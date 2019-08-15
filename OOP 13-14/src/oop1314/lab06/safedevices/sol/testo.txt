@@ -1,0 +1,14 @@
+1. Cambiare l'implementazione di DeviceRow in modo che:
+1.1 Il costruttore non accetti alcun alrgomento e lasci la lista dei device vuota
+1.2 Vi sia un metodo add che aggiunge un nuovo device
+
+2. Sistemare Controller in modo che crei il DeviceRow senza argomenti.. di conseguenza, al il costruttore di Controller non abbia argomenti
+
+3. Gestire in SimpleCommandExecutor un comando 'add N' dove N è il countdown che deve avere il nuovo Device da creare
+3.1 aggiungere le costanti ADD e ERROR_NEGATIVE
+3.2 create un metodo processAdd analogo a processOn
+3.3 chiamarlo opportunamente da exec()
+3.4 processAdd lanci l'eccezione CommandNotRecognisedException se eprcepisce un numero negativo
+3.5 in processAdd l'effetto del riconoscimento della stringa sia l'invocazione di addDevice in this.row
+
+4 Si noti che un comando "+1.2", "-1.2" o "add 1.2" genera una eccezione non catturata. Si modifichi il programma in modo che invece tali comandi non causino l'interruzione del sistema, ma la stampa di "Comando errato.. reinserire" come già impostato nella classe Controller.

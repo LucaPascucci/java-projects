@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<persons>
+    <person>
+        <birthday>1993-01-07</birthday>
+        <city>Pesaro</city>
+        <firstName>Luca</firstName>
+        <lastName>Pascucci</lastName>
+        <postalCode>61121</postalCode>
+        <street>Via Agostini 24/1</street>
+    </person>
+    <person>
+        <birthday>1993-02-16</birthday>
+        <city>Bologna</city>
+        <firstName>Andrea</firstName>
+        <lastName>Pascucci</lastName>
+        <postalCode>455040</postalCode>
+        <street>Via Milano 140</street>
+    </person>
+    <person>
+        <birthday>1957-07-31</birthday>
+        <city>Topolinia</city>
+        <firstName>Leonardo</firstName>
+        <lastName>Pascucci</lastName>
+        <postalCode>1</postalCode>
+        <street>Via venerdì 17</street>
+    </person>
+    <person>
+        <birthday>1967-03-14</birthday>
+        <city>Pisaurum</city>
+        <firstName>Luciana</firstName>
+        <lastName>Cecchini</lastName>
+        <postalCode>61122</postalCode>
+        <street>Viale Trieste</street>
+    </person>
+</persons>

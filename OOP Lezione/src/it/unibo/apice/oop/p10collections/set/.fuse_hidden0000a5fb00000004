@@ -1,0 +1,20 @@
+class Point3D{   
+    
+  final private double x;      
+  final private double y;
+  final private double z;
+  
+  public Point3D(double x,double y,double z){
+    this.x = x; 
+    this.y = y; 
+    this.z = z;
+  }
+  
+  public boolean equals(Object o){
+      if (o == null || !(o instanceof Point3D)){
+      	  return false;
+      }
+      
+  }
+
+}

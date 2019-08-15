@@ -1,0 +1,10 @@
+Si consideri la classe Test.java, che testa la classe data e funzionante ShowFactorial, usata per stampare a video sequence di numeri fattoriali 
+consecutivi. La si esegua e si controlli il suo funzionamento. Allo studente si richiedere di rifattorizzare la classe ShowFactorial in modo da 
+rendererla indipendente da un'altra classe che abbia il compito di calcolare i numeri della sequenza. 
+
+A tal scopo si realizzi invece una implementazione ShowSequenceImpl dell'interfaccia data ShowSequence, e una classe FactorialSequence che implementi 
+l'interfaccia ResettableSequence, tale per cui l'equivalente metodo NewTest.test() abbia lo stesso risultato di Test.test().
+
+Quindi si fornisca anche la classe PowerSequence che implementi l'interfaccia ResettableSequence in modo da realizzare invece della sequenza di 
+fattoriali la sequenza di potenze: a^0, a^1, a^2, .. , a^n dove a è l'elemento passato al costruttore della classe PowerSequence. 
+Si noti che tale classe sarà testata dal metodo NewTest.test2().
